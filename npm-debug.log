@@ -1,0 +1,832 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'angular-star-rating' ]
+2 info using npm@2.15.5
+3 info using node@v4.4.5
+4 verbose config Skipping project config: C:\Users\Rishab/.npmrc. (matches userconfig)
+5 verbose install initial load of C:\Users\Rishab\package.json
+6 verbose installManyTop reading scoped package data from C:\Users\Rishab\node_modules\multer\package.json
+7 verbose readDependencies loading dependencies from C:\Users\Rishab\package.json
+8 silly cache add args [ 'angular-star-rating', null ]
+9 verbose cache add spec angular-star-rating
+10 silly cache add parsed spec Result {
+10 silly cache add   raw: 'angular-star-rating',
+10 silly cache add   scope: null,
+10 silly cache add   name: 'angular-star-rating',
+10 silly cache add   rawSpec: '',
+10 silly cache add   spec: 'latest',
+10 silly cache add   type: 'tag' }
+11 silly addNamed angular-star-rating@latest
+12 verbose addNamed "latest" is being treated as a dist-tag for angular-star-rating
+13 info addNameTag [ 'angular-star-rating', 'latest' ]
+14 silly mapToRegistry name angular-star-rating
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry data Result {
+17 silly mapToRegistry   raw: 'angular-star-rating',
+17 silly mapToRegistry   scope: null,
+17 silly mapToRegistry   name: 'angular-star-rating',
+17 silly mapToRegistry   rawSpec: '',
+17 silly mapToRegistry   spec: 'latest',
+17 silly mapToRegistry   type: 'tag' }
+18 silly mapToRegistry uri https://registry.npmjs.org/angular-star-rating
+19 verbose addNameTag registry:https://registry.npmjs.org/angular-star-rating not in flight; fetching
+20 verbose request uri https://registry.npmjs.org/angular-star-rating
+21 verbose request no auth needed
+22 info attempt registry request try #1 at 7:24:59 PM
+23 verbose request id 021a091c5f99a33c
+24 verbose etag W/"583cd13c-bbbb"
+25 verbose lastModified Tue, 29 Nov 2016 00:52:12 GMT
+26 http request GET https://registry.npmjs.org/angular-star-rating
+27 http 304 https://registry.npmjs.org/angular-star-rating
+28 verbose headers { date: 'Mon, 05 Dec 2016 00:25:19 GMT',
+28 verbose headers   via: '1.1 varnish',
+28 verbose headers   'cache-control': 'max-age=300',
+28 verbose headers   etag: 'W/"583cd13c-bbbb"',
+28 verbose headers   age: '101',
+28 verbose headers   connection: 'keep-alive',
+28 verbose headers   'x-served-by': 'cache-bos8224-BOS',
+28 verbose headers   'x-cache': 'HIT',
+28 verbose headers   'x-cache-hits': '1',
+28 verbose headers   'x-timer': 'S1480897519.219654,VS0,VE0',
+28 verbose headers   vary: 'Accept-Encoding' }
+29 silly get cb [ 304,
+29 silly get   { date: 'Mon, 05 Dec 2016 00:25:19 GMT',
+29 silly get     via: '1.1 varnish',
+29 silly get     'cache-control': 'max-age=300',
+29 silly get     etag: 'W/"583cd13c-bbbb"',
+29 silly get     age: '101',
+29 silly get     connection: 'keep-alive',
+29 silly get     'x-served-by': 'cache-bos8224-BOS',
+29 silly get     'x-cache': 'HIT',
+29 silly get     'x-cache-hits': '1',
+29 silly get     'x-timer': 'S1480897519.219654,VS0,VE0',
+29 silly get     vary: 'Accept-Encoding' } ]
+30 verbose etag https://registry.npmjs.org/angular-star-rating from cache
+31 verbose get saving angular-star-rating to C:\Users\Rishab\AppData\Roaming\npm-cache\registry.npmjs.org\angular-star-rating\.cache.json
+32 verbose correctMkdir C:\Users\Rishab\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+33 silly addNameTag next cb for angular-star-rating with tag latest
+34 silly addNamed angular-star-rating@1.0.13
+35 verbose addNamed "1.0.13" is a plain semver version for angular-star-rating
+36 silly cache afterAdd angular-star-rating@1.0.13
+37 verbose afterAdd C:\Users\Rishab\AppData\Roaming\npm-cache\angular-star-rating\1.0.13\package\package.json not in flight; writing
+38 verbose correctMkdir C:\Users\Rishab\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+39 verbose afterAdd C:\Users\Rishab\AppData\Roaming\npm-cache\angular-star-rating\1.0.13\package\package.json written
+40 silly install resolved [ { name: 'angular-star-rating',
+40 silly install resolved     version: '1.0.13',
+40 silly install resolved     license: 'MIT',
+40 silly install resolved     keywords:
+40 silly install resolved      [ 'Rating',
+40 silly install resolved        'Stars',
+40 silly install resolved        'Star Rating',
+40 silly install resolved        'Star-Rating',
+40 silly install resolved        'Starrating',
+40 silly install resolved        'Icon',
+40 silly install resolved        'SVG',
+40 silly install resolved        'PNG',
+40 silly install resolved        'JPEG',
+40 silly install resolved        'CSS',
+40 silly install resolved        'Pure CSS',
+40 silly install resolved        'CSS only',
+40 silly install resolved        'JavaScript',
+40 silly install resolved        'Angular',
+40 silly install resolved        'Angular Component',
+40 silly install resolved        'Angular1',
+40 silly install resolved        'Angular1 Component',
+40 silly install resolved        'Angular1.5',
+40 silly install resolved        'Angular1.5 Component',
+40 silly install resolved        'Angular2',
+40 silly install resolved        'Typescript' ],
+40 silly install resolved     description: 'Angular Star Rating is a Angular1.5 component written in typescript.',
+40 silly install resolved     author: { name: 'Michael Hladky' },
+40 silly install resolved     contributors: [ [Object] ],
+40 silly install resolved     repository:
+40 silly install resolved      { type: 'git',
+40 silly install resolved        url: 'git+https://github.com/BioPhoton/angular-star-rating.git' },
+40 silly install resolved     bugs: { url: 'https://github.com/BioPhoton/angular-star-rating/issues' },
+40 silly install resolved     homepage: 'https://github.com/BioPhoton/angular-star-rating#readme',
+40 silly install resolved     main: 'dist/index.js',
+40 silly install resolved     devDependencies:
+40 silly install resolved      { 'angular-mocks': '^1.5.8',
+40 silly install resolved        'css-loader': '^0.25.0',
+40 silly install resolved        del: '^2.2.2',
+40 silly install resolved        extendify: '^1.0.0',
+40 silly install resolved        'file-loader': '^0.9.0',
+40 silly install resolved        'font-awesome': '^4.6.3',
+40 silly install resolved        fontawesome: '^4.5.0',
+40 silly install resolved        gulp: '^3.9.1',
+40 silly install resolved        'gulp-autoprefixer': '^3.1.1',
+40 silly install resolved        'gulp-bump': '^2.4.0',
+40 silly install resolved        'gulp-concat': '^2.6.0',
+40 silly install resolved        'gulp-load-plugins': '^1.3.0',
+40 silly install resolved        'gulp-notify': '^2.2.0',
+40 silly install resolved        'gulp-postcss': '^6.2.0',
+40 silly install resolved        'gulp-print': '^2.0.1',
+40 silly install resolved        'gulp-sass': '^2.3.2',
+40 silly install resolved        'gulp-task-listing': '^1.0.1',
+40 silly install resolved        'gulp-typedoc': '^2.0.0',
+40 silly install resolved        'gulp-util': '^3.0.7',
+40 silly install resolved        'html-loader': '^0.4.4',
+40 silly install resolved        'html-webpack-plugin': '^2.22.0',
+40 silly install resolved        'jasmine-core': '^2.5.2',
+40 silly install resolved        karma: '0.13.9',
+40 silly install resolved        'karma-chrome-launcher': '^2.0.0',
+40 silly install resolved        'karma-coverage': '^1.1.1',
+40 silly install resolved        'karma-jasmine': '^1.0.2',
+40 silly install resolved        'karma-phantomjs-launcher': '^1.0.2',
+40 silly install resolved        'karma-sourcemap-loader': '^0.3.7',
+40 silly install resolved        'karma-webpack': '^1.8.0',
+40 silly install resolved        'merge-stream': '^1.0.0',
+40 silly install resolved        'ngtemplate-loader': '^1.3.1',
+40 silly install resolved        'node-sass': '^3.10.0',
+40 silly install resolved        ntypescript: '^1.201609060105.1',
+40 silly install resolved        'remap-istanbul': '^0.7.0',
+40 silly install resolved        rimraf: '^2.5.4',
+40 silly install resolved        'sass-loader': '^4.0.2',
+40 silly install resolved        'sc5-styleguide': '^1.2.0',
+40 silly install resolved        'style-loader': '^0.13.1',
+40 silly install resolved        'ts-loader': '^0.9.5',
+40 silly install resolved        typedoc: '^0.4.5',
+40 silly install resolved        typescript: '^1.8.10',
+40 silly install resolved        'url-loader': '^0.5.7',
+40 silly install resolved        webpack: '^1.13.2',
+40 silly install resolved        'webpack-dev-server': '^1.16.2',
+40 silly install resolved        wrench: '^1.5.9',
+40 silly install resolved        yargs: '^6.3.0' },
+40 silly install resolved     dependencies: { angular: '^1.5.8', 'css-star-rating': '^1.0' },
+40 silly install resolved     scripts:
+40 silly install resolved      { init: '.\\chore\\scripts\\init-project.sh',
+40 silly install resolved        postinstall: 'typings install',
+40 silly install resolved        'clean:dist': 'rimraf dist',
+40 silly install resolved        'webpack:compile': 'webpack --progress --colors --display-error-details',
+40 silly install resolved        test: 'karma start karma.conf.js',
+40 silly install resolved        coverage: 'http-server -c-1 -o -p 9875 ./coverage',
+40 silly install resolved        changelog: 'conventional-changelog -p angular -i CHANGELOG.md -s',
+40 silly install resolved        'version:bump': 'gulp version:bump',
+40 silly install resolved        release: 'npm publish' },
+40 silly install resolved     gitHead: '291832f28d7bc243179a09e95b95da4a7bd541ec',
+40 silly install resolved     _id: 'angular-star-rating@1.0.13',
+40 silly install resolved     _shasum: 'ead0a1018fcf9d0855a95a6d8d7da89c79606233',
+40 silly install resolved     _from: 'angular-star-rating@latest',
+40 silly install resolved     _npmVersion: '3.3.6',
+40 silly install resolved     _nodeVersion: '5.0.0',
+40 silly install resolved     _npmUser: { name: 'bio_photon', email: 'michael@hladky.at' },
+40 silly install resolved     dist:
+40 silly install resolved      { shasum: 'ead0a1018fcf9d0855a95a6d8d7da89c79606233',
+40 silly install resolved        tarball: 'https://registry.npmjs.org/angular-star-rating/-/angular-star-rating-1.0.13.tgz' },
+40 silly install resolved     maintainers: [ [Object] ],
+40 silly install resolved     _npmOperationalInternal:
+40 silly install resolved      { host: 'packages-18-east.internal.npmjs.com',
+40 silly install resolved        tmp: 'tmp/angular-star-rating-1.0.13.tgz_1480380732211_0.8112942276056856' },
+40 silly install resolved     directories: {},
+40 silly install resolved     _resolved: 'https://registry.npmjs.org/angular-star-rating/-/angular-star-rating-1.0.13.tgz',
+40 silly install resolved     readme: 'ERROR: No README data found!' } ]
+41 info install angular-star-rating@1.0.13 into C:\Users\Rishab
+42 info installOne angular-star-rating@1.0.13
+43 verbose installOne of angular-star-rating to C:\Users\Rishab not in flight; installing
+44 verbose correctMkdir C:\Users\Rishab\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+45 verbose lock using C:\Users\Rishab\AppData\Roaming\npm-cache\_locks\angular-star-rating-280287372e1928a1.lock for C:\Users\Rishab\node_modules\angular-star-rating
+46 silly install write writing angular-star-rating 1.0.13 to C:\Users\Rishab\node_modules\angular-star-rating
+47 verbose unbuild node_modules\angular-star-rating
+48 silly gentlyRm C:\Users\Rishab\node_modules\angular-star-rating is being purged from base C:\Users\Rishab
+49 verbose gentlyRm don't care about contents; nuking C:\Users\Rishab\node_modules\angular-star-rating
+50 verbose tar unpack C:\Users\Rishab\AppData\Roaming\npm-cache\angular-star-rating\1.0.13\package.tgz
+51 verbose tar unpacking to C:\Users\Rishab\node_modules\angular-star-rating
+52 silly gentlyRm C:\Users\Rishab\node_modules\angular-star-rating is being purged
+53 verbose gentlyRm don't care about contents; nuking C:\Users\Rishab\node_modules\angular-star-rating
+54 silly gunzTarPerm modes [ '777', '666' ]
+55 silly gunzTarPerm extractEntry package.json
+56 silly gunzTarPerm extractEntry .npmignore
+57 silly gunzTarPerm extractEntry README.md
+58 silly gunzTarPerm extractEntry LICENSE
+59 silly gunzTarPerm extractEntry bower.json
+60 silly gunzTarPerm extractEntry dist/index.js
+61 silly gunzTarPerm extractEntry dist/assets/images/star-rating.icons.svg
+62 silly gunzTarPerm extractEntry dist/index.d.ts
+63 silly gunzTarPerm extractEntry dist/index.js.map
+64 silly gunzTarPerm extractEntry dist/star-rating.component.d.ts
+65 silly gunzTarPerm extractEntry dist/star-rating.controller.d.ts
+66 silly gunzTarPerm extractEntry CHANGELOG.md
+67 silly gunzTarPerm extractEntry .travis.yml
+68 silly gunzTarPerm extractEntry resources/prop-size-medium.PNG
+69 silly gunzTarPerm extractEntry resources/example-usage.PNG
+70 silly gunzTarPerm extractEntry resources/prop-animation_speed-immediately.gif
+71 silly gunzTarPerm extractEntry resources/prop-animation_speed-noticeable.gif
+72 silly gunzTarPerm extractEntry resources/prop-animation_speed-slow.gif
+73 silly gunzTarPerm extractEntry resources/prop-color-default.PNG
+74 silly gunzTarPerm extractEntry resources/prop-color-middle.PNG
+75 silly gunzTarPerm extractEntry resources/prop-color-negative.PNG
+76 silly gunzTarPerm extractEntry resources/prop-color-positive.PNG
+77 silly gunzTarPerm extractEntry resources/prop-disabled-false.PNG
+78 silly gunzTarPerm extractEntry resources/prop-disabled-true.PNG
+79 silly gunzTarPerm extractEntry resources/prop-get_color-function.PNG
+80 silly gunzTarPerm extractEntry resources/prop-label-bottom.PNG
+81 silly gunzTarPerm extractEntry resources/prop-label-left.PNG
+82 silly gunzTarPerm extractEntry resources/prop-label-right.PNG
+83 silly gunzTarPerm extractEntry resources/prop-label-top.PNG
+84 silly gunzTarPerm extractEntry resources/prop-num_of_stars.PNG
+85 silly gunzTarPerm extractEntry resources/prop-show_half_stars-false.PNG
+86 silly gunzTarPerm extractEntry resources/prop-show_half_stars-true.PNG
+87 silly gunzTarPerm extractEntry resources/prop-size-large.PNG
+88 silly gunzTarPerm extractEntry resources/example-usage.gif
+89 silly gunzTarPerm extractEntry resources/prop-size-small.PNG
+90 silly gunzTarPerm extractEntry resources/prop-spread-false.PNG
+91 silly gunzTarPerm extractEntry resources/prop-spread-true.PNG
+92 silly gunzTarPerm extractEntry resources/prop-text.PNG
+93 silly gunzTarPerm extractEntry resources/prop-value.PNG
+94 silly gunzTarPerm extractEntry resources/star-color-default.PNG
+95 silly gunzTarPerm extractEntry resources/star-color-middle.PNG
+96 silly gunzTarPerm extractEntry resources/star-color-negative.PNG
+97 silly gunzTarPerm extractEntry resources/star-color-positive.PNG
+98 silly gunzTarPerm extractEntry resources/star-empty.png
+99 silly gunzTarPerm extractEntry resources/star-fill-empty.png
+100 silly gunzTarPerm extractEntry resources/star-fill-filled.PNG
+101 silly gunzTarPerm extractEntry resources/star-fill-half.PNG
+102 silly gunzTarPerm extractEntry resources/star-filled.png
+103 silly gunzTarPerm extractEntry resources/star-icon-character.PNG
+104 silly gunzTarPerm extractEntry resources/star-icon-svg.PNG
+105 silly gunzTarPerm extractEntry resources/star-rating-options.PNG
+106 silly gunzTarPerm extractEntry resources/star-size-larg.PNG
+107 silly gunzTarPerm extractEntry resources/star-size-medium.PNG
+108 silly gunzTarPerm extractEntry resources/star-size-small.PNG
+109 silly gunzTarPerm extractEntry src/index.ts
+110 silly gunzTarPerm extractEntry src/star-rating.component.ts
+111 silly gunzTarPerm extractEntry src/star-rating.controller.jasmine.ts
+112 silly gunzTarPerm extractEntry src/star-rating.controller.ts
+113 silly gunzTarPerm extractEntry src/star-rating.tpl.html
+114 verbose write writing to C:\Users\Rishab\node_modules\angular-star-rating\package.json
+115 info preinstall angular-star-rating@1.0.13
+116 verbose readDependencies loading dependencies from C:\Users\Rishab\node_modules\angular-star-rating\package.json
+117 silly prepareForInstallMany adding angular@^1.5.8 from angular-star-rating dependencies
+118 silly prepareForInstallMany adding css-star-rating@^1.0 from angular-star-rating dependencies
+119 verbose readDependencies loading dependencies from C:\Users\Rishab\node_modules\angular-star-rating\package.json
+120 silly cache add args [ 'angular@^1.5.8', null ]
+121 verbose cache add spec angular@^1.5.8
+122 silly cache add args [ 'css-star-rating@^1.0', null ]
+123 verbose cache add spec css-star-rating@^1.0
+124 silly cache add parsed spec Result {
+124 silly cache add   raw: 'angular@^1.5.8',
+124 silly cache add   scope: null,
+124 silly cache add   name: 'angular',
+124 silly cache add   rawSpec: '^1.5.8',
+124 silly cache add   spec: '>=1.5.8 <2.0.0',
+124 silly cache add   type: 'range' }
+125 silly addNamed angular@>=1.5.8 <2.0.0
+126 verbose addNamed ">=1.5.8 <2.0.0" is a valid semver range for angular
+127 silly addNameRange { name: 'angular', range: '>=1.5.8 <2.0.0', hasData: false }
+128 silly mapToRegistry name angular
+129 silly mapToRegistry using default registry
+130 silly mapToRegistry registry https://registry.npmjs.org/
+131 silly mapToRegistry data Result {
+131 silly mapToRegistry   raw: 'angular',
+131 silly mapToRegistry   scope: null,
+131 silly mapToRegistry   name: 'angular',
+131 silly mapToRegistry   rawSpec: '',
+131 silly mapToRegistry   spec: 'latest',
+131 silly mapToRegistry   type: 'tag' }
+132 silly mapToRegistry uri https://registry.npmjs.org/angular
+133 verbose addNameRange registry:https://registry.npmjs.org/angular not in flight; fetching
+134 silly cache add parsed spec Result {
+134 silly cache add   raw: 'css-star-rating@^1.0',
+134 silly cache add   scope: null,
+134 silly cache add   name: 'css-star-rating',
+134 silly cache add   rawSpec: '^1.0',
+134 silly cache add   spec: '>=1.0.0 <2.0.0',
+134 silly cache add   type: 'range' }
+135 silly addNamed css-star-rating@>=1.0.0 <2.0.0
+136 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for css-star-rating
+137 silly addNameRange { name: 'css-star-rating',
+137 silly addNameRange   range: '>=1.0.0 <2.0.0',
+137 silly addNameRange   hasData: false }
+138 silly mapToRegistry name css-star-rating
+139 silly mapToRegistry using default registry
+140 silly mapToRegistry registry https://registry.npmjs.org/
+141 silly mapToRegistry data Result {
+141 silly mapToRegistry   raw: 'css-star-rating',
+141 silly mapToRegistry   scope: null,
+141 silly mapToRegistry   name: 'css-star-rating',
+141 silly mapToRegistry   rawSpec: '',
+141 silly mapToRegistry   spec: 'latest',
+141 silly mapToRegistry   type: 'tag' }
+142 silly mapToRegistry uri https://registry.npmjs.org/css-star-rating
+143 verbose addNameRange registry:https://registry.npmjs.org/css-star-rating not in flight; fetching
+144 verbose request uri https://registry.npmjs.org/angular
+145 verbose request no auth needed
+146 info attempt registry request try #1 at 7:25:00 PM
+147 verbose etag W/"583f6def-22910"
+148 verbose lastModified Thu, 01 Dec 2016 00:25:19 GMT
+149 http request GET https://registry.npmjs.org/angular
+150 verbose request uri https://registry.npmjs.org/css-star-rating
+151 verbose request no auth needed
+152 info attempt registry request try #1 at 7:25:00 PM
+153 verbose etag W/"5841672b-6449"
+154 verbose lastModified Fri, 02 Dec 2016 12:20:59 GMT
+155 http request GET https://registry.npmjs.org/css-star-rating
+156 http 304 https://registry.npmjs.org/angular
+157 verbose headers { date: 'Mon, 05 Dec 2016 00:25:19 GMT',
+157 verbose headers   via: '1.1 varnish',
+157 verbose headers   'cache-control': 'max-age=300',
+157 verbose headers   etag: 'W/"583f6def-22910"',
+157 verbose headers   age: '34',
+157 verbose headers   connection: 'keep-alive',
+157 verbose headers   'x-served-by': 'cache-bos8224-BOS',
+157 verbose headers   'x-cache': 'HIT',
+157 verbose headers   'x-cache-hits': '1',
+157 verbose headers   'x-timer': 'S1480897519.724591,VS0,VE0',
+157 verbose headers   vary: 'Accept-Encoding' }
+158 silly get cb [ 304,
+158 silly get   { date: 'Mon, 05 Dec 2016 00:25:19 GMT',
+158 silly get     via: '1.1 varnish',
+158 silly get     'cache-control': 'max-age=300',
+158 silly get     etag: 'W/"583f6def-22910"',
+158 silly get     age: '34',
+158 silly get     connection: 'keep-alive',
+158 silly get     'x-served-by': 'cache-bos8224-BOS',
+158 silly get     'x-cache': 'HIT',
+158 silly get     'x-cache-hits': '1',
+158 silly get     'x-timer': 'S1480897519.724591,VS0,VE0',
+158 silly get     vary: 'Accept-Encoding' } ]
+159 verbose etag https://registry.npmjs.org/angular from cache
+160 verbose get saving angular to C:\Users\Rishab\AppData\Roaming\npm-cache\registry.npmjs.org\angular\.cache.json
+161 verbose correctMkdir C:\Users\Rishab\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+162 silly addNameRange number 2 { name: 'angular', range: '>=1.5.8 <2.0.0', hasData: true }
+163 silly addNameRange versions [ 'angular',
+163 silly addNameRange   [ '0.0.1',
+163 silly addNameRange     '0.0.1-1',
+163 silly addNameRange     '0.0.1-2',
+163 silly addNameRange     '0.0.2',
+163 silly addNameRange     '0.0.3',
+163 silly addNameRange     '0.0.4',
+163 silly addNameRange     '1.0.0',
+163 silly addNameRange     '1.0.1',
+163 silly addNameRange     '1.0.2',
+163 silly addNameRange     '1.0.3',
+163 silly addNameRange     '1.0.4',
+163 silly addNameRange     '1.0.5',
+163 silly addNameRange     '1.0.6',
+163 silly addNameRange     '1.0.7',
+163 silly addNameRange     '1.0.8',
+163 silly addNameRange     '1.1.0',
+163 silly addNameRange     '1.1.1',
+163 silly addNameRange     '1.1.2',
+163 silly addNameRange     '1.1.3',
+163 silly addNameRange     '1.1.4',
+163 silly addNameRange     '1.1.5',
+163 silly addNameRange     '1.2.0',
+163 silly addNameRange     '1.2.1',
+163 silly addNameRange     '1.2.2',
+163 silly addNameRange     '1.2.3',
+163 silly addNameRange     '1.2.4',
+163 silly addNameRange     '1.2.5',
+163 silly addNameRange     '1.2.6',
+163 silly addNameRange     '1.2.7',
+163 silly addNameRange     '1.2.8',
+163 silly addNameRange     '1.2.9',
+163 silly addNameRange     '1.2.10',
+163 silly addNameRange     '1.2.11',
+163 silly addNameRange     '1.2.12',
+163 silly addNameRange     '1.2.13',
+163 silly addNameRange     '1.2.14',
+163 silly addNameRange     '1.2.15',
+163 silly addNameRange     '1.2.16',
+163 silly addNameRange     '1.2.17',
+163 silly addNameRange     '1.2.18',
+163 silly addNameRange     '1.2.19',
+163 silly addNameRange     '1.2.20',
+163 silly addNameRange     '1.2.21',
+163 silly addNameRange     '1.2.22',
+163 silly addNameRange     '1.2.23',
+163 silly addNameRange     '1.3.0-rc.5',
+163 silly addNameRange     '1.3.0',
+163 silly addNameRange     '1.3.1',
+163 silly addNameRange     '1.3.2',
+163 silly addNameRange     '1.3.3',
+163 silly addNameRange     '1.3.4-build.3588',
+163 silly addNameRange     '1.2.27',
+163 silly addNameRange     '1.3.4',
+163 silly addNameRange     '1.3.5',
+163 silly addNameRange     '1.3.6',
+163 silly addNameRange     '1.3.7',
+163 silly addNameRange     '1.2.28',
+163 silly addNameRange     '1.3.8',
+163 silly addNameRange     '1.4.0-beta.0',
+163 silly addNameRange     '1.3.9',
+163 silly addNameRange     '1.3.10',
+163 silly addNameRange     '1.4.0-beta.1',
+163 silly addNameRange     '1.4.0-beta.2',
+163 silly addNameRange     '1.3.11',
+163 silly addNameRange     '1.4.0-beta.3',
+163 silly addNameRange     '1.3.12',
+163 silly addNameRange     '1.3.13',
+163 silly addNameRange     '1.4.0-beta.4',
+163 silly addNameRange     '1.3.14',
+163 silly addNameRange     '1.4.0-beta.5',
+163 silly addNameRange     '1.4.0-beta.6',
+163 silly addNameRange     '1.3.15',
+163 silly addNameRange     '1.4.0-rc.0',
+163 silly addNameRange     '1.4.0-rc.1',
+163 silly addNameRange     '1.4.0-rc.2',
+163 silly addNameRange     '1.4.0',
+163 silly addNameRange     '1.3.16',
+163 silly addNameRange     '1.4.1',
+163 silly addNameRange     '1.4.2',
+163 silly addNameRange     '1.3.17',
+163 silly addNameRange     '1.4.3',
+163 silly addNameRange     '1.4.4',
+163 silly addNameRange     '1.3.18',
+163 silly addNameRange     '1.4.5',
+163 silly addNameRange     '1.3.19',
+163 silly addNameRange     '1.4.6',
+163 silly addNameRange     '1.5.0-beta.0',
+163 silly addNameRange     '1.2.29',
+163 silly addNameRange     '1.3.20',
+163 silly addNameRange     '1.4.7',
+163 silly addNameRange     '1.5.0-beta.2',
+163 silly addNameRange     '1.4.8',
+163 silly addNameRange     '1.5.0-rc.0',
+163 silly addNameRange     '1.5.0-rc.1',
+163 silly addNameRange     '1.4.9',
+163 silly addNameRange     '1.5.0-rc.2',
+163 silly addNameRange     '1.5.0',
+163 silly addNameRange     '1.5.1',
+163 silly addNameRange     '1.4.10',
+163 silly addNameRange     '1.5.2',
+163 silly addNameRange     '1.5.3',
+163 silly addNameRange     '1.5.5',
+163 silly addNameRange     '1.4.11',
+163 silly addNameRange     '1.5.6',
+163 silly addNameRange     '1.4.12',
+163 silly addNameRange     '1.5.7',
+163 silly addNameRange     '1.2.30',
+163 silly addNameRange     '1.5.8',
+163 silly addNameRange     '1.4.13',
+163 silly addNameRange     '1.2.31',
+163 silly addNameRange     '1.2.32',
+163 silly addNameRange     '1.4.14',
+163 silly addNameRange     '1.6.0-rc.0',
+163 silly addNameRange     '1.6.0-rc.1',
+163 silly addNameRange     '1.5.9',
+163 silly addNameRange     '1.6.0-rc.2' ] ]
+164 silly addNamed angular@1.5.9
+165 verbose addNamed "1.5.9" is a plain semver version for angular
+166 silly cache afterAdd angular@1.5.9
+167 verbose afterAdd C:\Users\Rishab\AppData\Roaming\npm-cache\angular\1.5.9\package\package.json not in flight; writing
+168 verbose correctMkdir C:\Users\Rishab\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+169 http 304 https://registry.npmjs.org/css-star-rating
+170 verbose headers { date: 'Mon, 05 Dec 2016 00:25:19 GMT',
+170 verbose headers   via: '1.1 varnish',
+170 verbose headers   'cache-control': 'max-age=300',
+170 verbose headers   etag: 'W/"5841672b-6449"',
+170 verbose headers   age: '100',
+170 verbose headers   connection: 'keep-alive',
+170 verbose headers   'x-served-by': 'cache-bos8235-BOS',
+170 verbose headers   'x-cache': 'HIT',
+170 verbose headers   'x-cache-hits': '1',
+170 verbose headers   'x-timer': 'S1480897519.750535,VS0,VE0',
+170 verbose headers   vary: 'Accept-Encoding' }
+171 silly get cb [ 304,
+171 silly get   { date: 'Mon, 05 Dec 2016 00:25:19 GMT',
+171 silly get     via: '1.1 varnish',
+171 silly get     'cache-control': 'max-age=300',
+171 silly get     etag: 'W/"5841672b-6449"',
+171 silly get     age: '100',
+171 silly get     connection: 'keep-alive',
+171 silly get     'x-served-by': 'cache-bos8235-BOS',
+171 silly get     'x-cache': 'HIT',
+171 silly get     'x-cache-hits': '1',
+171 silly get     'x-timer': 'S1480897519.750535,VS0,VE0',
+171 silly get     vary: 'Accept-Encoding' } ]
+172 verbose etag https://registry.npmjs.org/css-star-rating from cache
+173 verbose get saving css-star-rating to C:\Users\Rishab\AppData\Roaming\npm-cache\registry.npmjs.org\css-star-rating\.cache.json
+174 verbose correctMkdir C:\Users\Rishab\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+175 verbose afterAdd C:\Users\Rishab\AppData\Roaming\npm-cache\angular\1.5.9\package\package.json written
+176 silly addNameRange number 2 { name: 'css-star-rating',
+176 silly addNameRange   range: '>=1.0.0 <2.0.0',
+176 silly addNameRange   hasData: true }
+177 silly addNameRange versions [ 'css-star-rating',
+177 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.5', '1.0.6' ] ]
+178 silly addNamed css-star-rating@1.0.6
+179 verbose addNamed "1.0.6" is a plain semver version for css-star-rating
+180 silly cache afterAdd css-star-rating@1.0.6
+181 verbose afterAdd C:\Users\Rishab\AppData\Roaming\npm-cache\css-star-rating\1.0.6\package\package.json not in flight; writing
+182 verbose correctMkdir C:\Users\Rishab\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+183 verbose afterAdd C:\Users\Rishab\AppData\Roaming\npm-cache\css-star-rating\1.0.6\package\package.json written
+184 silly install resolved [ { name: 'angular',
+184 silly install resolved     version: '1.5.9',
+184 silly install resolved     description: 'HTML enhanced for web apps',
+184 silly install resolved     main: 'index.js',
+184 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+184 silly install resolved     repository:
+184 silly install resolved      { type: 'git',
+184 silly install resolved        url: 'git+https://github.com/angular/angular.js.git' },
+184 silly install resolved     keywords: [ 'angular', 'framework', 'browser', 'client-side' ],
+184 silly install resolved     author:
+184 silly install resolved      { name: 'Angular Core Team',
+184 silly install resolved        email: 'angular-core+npm@google.com' },
+184 silly install resolved     license: 'MIT',
+184 silly install resolved     bugs: { url: 'https://github.com/angular/angular.js/issues' },
+184 silly install resolved     homepage: 'http://angularjs.org',
+184 silly install resolved     gitHead: 'b0ef53cc950305cb5cae49e6c69c673e4da8a63b',
+184 silly install resolved     _id: 'angular@1.5.9',
+184 silly install resolved     _shasum: 'b7aeff42dad87881e06be16b6690fe766d868b51',
+184 silly install resolved     _from: 'angular@>=1.5.8 <2.0.0',
+184 silly install resolved     _npmVersion: '2.15.8',
+184 silly install resolved     _nodeVersion: '4.4.7',
+184 silly install resolved     _npmUser: { name: 'angularcore', email: 'angular-core+npm@google.com' },
+184 silly install resolved     dist:
+184 silly install resolved      { shasum: 'b7aeff42dad87881e06be16b6690fe766d868b51',
+184 silly install resolved        tarball: 'https://registry.npmjs.org/angular/-/angular-1.5.9.tgz' },
+184 silly install resolved     maintainers: [ [Object], [Object] ],
+184 silly install resolved     _npmOperationalInternal:
+184 silly install resolved      { host: 'packages-18-east.internal.npmjs.com',
+184 silly install resolved        tmp: 'tmp/angular-1.5.9.tgz_1480018633883_0.0567803499288857' },
+184 silly install resolved     directories: {},
+184 silly install resolved     _resolved: 'https://registry.npmjs.org/angular/-/angular-1.5.9.tgz',
+184 silly install resolved     readme: 'ERROR: No README data found!' },
+184 silly install resolved   { name: 'css-star-rating',
+184 silly install resolved     version: '1.0.6',
+184 silly install resolved     license: 'MIT',
+184 silly install resolved     keywords:
+184 silly install resolved      [ 'Rating',
+184 silly install resolved        'Stars',
+184 silly install resolved        'Star Rating',
+184 silly install resolved        'Star-Rating',
+184 silly install resolved        'Starrating',
+184 silly install resolved        'Icon',
+184 silly install resolved        'Iconfont',
+184 silly install resolved        'Fonticons',
+184 silly install resolved        'Fontawesome',
+184 silly install resolved        'SVG',
+184 silly install resolved        'PNG',
+184 silly install resolved        'JPEG',
+184 silly install resolved        'CSS',
+184 silly install resolved        'Pure CSS',
+184 silly install resolved        'CSS only',
+184 silly install resolved        'SCSS' ],
+184 silly install resolved     description: 'Css Star Rating is pure css component written in scss.',
+184 silly install resolved     author: { name: 'Michael Hladky' },
+184 silly install resolved     repository:
+184 silly install resolved      { type: 'git',
+184 silly install resolved        url: 'git+https://github.com/BioPhoton/css-star-rating.git' },
+184 silly install resolved     contributors: [ [Object] ],
+184 silly install resolved     bugs: { url: 'https://github.com/BioPhoton/css-star-rating/issues' },
+184 silly install resolved     homepage: 'https://github.com/BioPhoton/css-star-rating#readme',
+184 silly install resolved     main: 'dist/index.js',
+184 silly install resolved     devDependencies:
+184 silly install resolved      { 'angularic-ionicon': '^1.1.0',
+184 silly install resolved        'conventional-changelog': '^1.1.0',
+184 silly install resolved        'css-loader': '^0.26.0',
+184 silly install resolved        del: '^2.2.2',
+184 silly install resolved        extendify: '^1.0.0',
+184 silly install resolved        'file-loader': '^0.9.0',
+184 silly install resolved        'font-awesome': '^4.7.0',
+184 silly install resolved        gulp: '^3.9.1',
+184 silly install resolved        'gulp-autoprefixer': '^3.1.1',
+184 silly install resolved        'gulp-bump': '^2.5.1',
+184 silly install resolved        'gulp-concat': '^2.6.1',
+184 silly install resolved        'gulp-cssnano': '^2.1.2',
+184 silly install resolved        'gulp-load-plugins': '^1.4.0',
+184 silly install resolved        'gulp-notify': '^2.2.0',
+184 silly install resolved        'gulp-plumber': '^1.1.0',
+184 silly install resolved        'gulp-print': '^2.0.1',
+184 silly install resolved        'gulp-rename': '^1.2.2',
+184 silly install resolved        'gulp-sass': '^2.3.2',
+184 silly install resolved        'gulp-task-listing': '^1.0.1',
+184 silly install resolved        'gulp-util': '^3.0.7',
+184 silly install resolved        'merge-stream': '^1.0.1',
+184 silly install resolved        'node-sass': '^3.13.0',
+184 silly install resolved        'sass-loader': '^4.0.2',
+184 silly install resolved        'sc5-styleguide': '^1.3.2',
+184 silly install resolved        'style-loader': '^0.13.1',
+184 silly install resolved        webpack: '^1.13.3',
+184 silly install resolved        wrench: '^1.5.9',
+184 silly install resolved        yargs: '^6.4.0' },
+184 silly install resolved     dependencies: {},
+184 silly install resolved     scripts:
+184 silly install resolved      { 'clean:dist': 'rimraf dist',
+184 silly install resolved        build: 'gulp project:build',
+184 silly install resolved        styleguide: 'gulp styleguide:watch',
+184 silly install resolved        'version:bump': 'gulp version:bump',
+184 silly install resolved        changelog: 'conventional-changelog -p angular -i CHANGELOG.md -s',
+184 silly install resolved        release: 'npm publish' },
+184 silly install resolved     gitHead: '2b481f5605a0fe6ea8f14ebda9db92ad891c7f6e',
+184 silly install resolved     _id: 'css-star-rating@1.0.6',
+184 silly install resolved     _shasum: 'e165b1ddadcdb571d39a2130ec4ae88a418508c3',
+184 silly install resolved     _from: 'css-star-rating@>=1.0.0 <2.0.0',
+184 silly install resolved     _npmVersion: '3.3.6',
+184 silly install resolved     _nodeVersion: '5.0.0',
+184 silly install resolved     _npmUser: { name: 'bio_photon', email: 'michael@hladky.at' },
+184 silly install resolved     dist:
+184 silly install resolved      { shasum: 'e165b1ddadcdb571d39a2130ec4ae88a418508c3',
+184 silly install resolved        tarball: 'https://registry.npmjs.org/css-star-rating/-/css-star-rating-1.0.6.tgz' },
+184 silly install resolved     maintainers: [ [Object] ],
+184 silly install resolved     _npmOperationalInternal:
+184 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+184 silly install resolved        tmp: 'tmp/css-star-rating-1.0.6.tgz_1480681256624_0.012229982763528824' },
+184 silly install resolved     directories: {},
+184 silly install resolved     _resolved: 'https://registry.npmjs.org/css-star-rating/-/css-star-rating-1.0.6.tgz',
+184 silly install resolved     readme: 'ERROR: No README data found!' } ]
+185 info install angular@1.5.9 into C:\Users\Rishab\node_modules\angular-star-rating
+186 info install css-star-rating@1.0.6 into C:\Users\Rishab\node_modules\angular-star-rating
+187 info installOne angular@1.5.9
+188 verbose installOne of angular to C:\Users\Rishab\node_modules\angular-star-rating not in flight; installing
+189 verbose correctMkdir C:\Users\Rishab\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+190 info installOne css-star-rating@1.0.6
+191 verbose installOne of css-star-rating to C:\Users\Rishab\node_modules\angular-star-rating not in flight; installing
+192 verbose correctMkdir C:\Users\Rishab\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+193 verbose lock using C:\Users\Rishab\AppData\Roaming\npm-cache\_locks\angular-10c7689ecd05c19b.lock for C:\Users\Rishab\node_modules\angular-star-rating\node_modules\angular
+194 verbose lock using C:\Users\Rishab\AppData\Roaming\npm-cache\_locks\css-star-rating-9924b5c29f5ad040.lock for C:\Users\Rishab\node_modules\angular-star-rating\node_modules\css-star-rating
+195 silly install write writing angular 1.5.9 to C:\Users\Rishab\node_modules\angular-star-rating\node_modules\angular
+196 silly install write writing css-star-rating 1.0.6 to C:\Users\Rishab\node_modules\angular-star-rating\node_modules\css-star-rating
+197 verbose unbuild node_modules\angular-star-rating\node_modules\angular
+198 verbose unbuild node_modules\angular-star-rating\node_modules\css-star-rating
+199 silly gentlyRm C:\Users\Rishab\node_modules\angular-star-rating\node_modules\angular is being purged from base C:\Users\Rishab
+200 verbose gentlyRm don't care about contents; nuking C:\Users\Rishab\node_modules\angular-star-rating\node_modules\angular
+201 silly gentlyRm C:\Users\Rishab\node_modules\angular-star-rating\node_modules\css-star-rating is being purged from base C:\Users\Rishab
+202 verbose gentlyRm don't care about contents; nuking C:\Users\Rishab\node_modules\angular-star-rating\node_modules\css-star-rating
+203 verbose tar unpack C:\Users\Rishab\AppData\Roaming\npm-cache\angular\1.5.9\package.tgz
+204 verbose tar unpacking to C:\Users\Rishab\node_modules\angular-star-rating\node_modules\angular
+205 silly gentlyRm C:\Users\Rishab\node_modules\angular-star-rating\node_modules\angular is being purged
+206 verbose gentlyRm don't care about contents; nuking C:\Users\Rishab\node_modules\angular-star-rating\node_modules\angular
+207 verbose tar unpack C:\Users\Rishab\AppData\Roaming\npm-cache\css-star-rating\1.0.6\package.tgz
+208 verbose tar unpacking to C:\Users\Rishab\node_modules\angular-star-rating\node_modules\css-star-rating
+209 silly gentlyRm C:\Users\Rishab\node_modules\angular-star-rating\node_modules\css-star-rating is being purged
+210 verbose gentlyRm don't care about contents; nuking C:\Users\Rishab\node_modules\angular-star-rating\node_modules\css-star-rating
+211 silly gunzTarPerm modes [ '777', '666' ]
+212 silly gunzTarPerm modes [ '777', '666' ]
+213 silly gunzTarPerm extractEntry package.json
+214 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+215 silly gunzTarPerm extractEntry package.json
+216 silly gunzTarPerm extractEntry README.md
+217 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+218 silly gunzTarPerm extractEntry angular.js
+219 silly gunzTarPerm modified mode [ 'angular.js', 420, 438 ]
+220 silly gunzTarPerm extractEntry .npmignore
+221 silly gunzTarPerm extractEntry README.md
+222 silly gunzTarPerm extractEntry LICENSE
+223 silly gunzTarPerm extractEntry bower.json
+224 silly gunzTarPerm extractEntry dist/css/star-rating.css
+225 silly gunzTarPerm extractEntry dist/css/star-rating.min.css
+226 silly gunzTarPerm extractEntry dist/images/star-rating.icons.svg
+227 silly gunzTarPerm extractEntry dist/scss/_elements.scss
+228 silly gunzTarPerm extractEntry dist/scss/_modifiers.scss
+229 silly gunzTarPerm extractEntry dist/scss/_themes.scss
+230 silly gunzTarPerm extractEntry dist/scss/_variables.scss
+231 silly gunzTarPerm extractEntry dist/scss/star-rating.scss
+232 silly gunzTarPerm extractEntry CHANGELOG.md
+233 silly gunzTarPerm extractEntry resources/images/prop-size-large.PNG
+234 silly gunzTarPerm extractEntry resources/images/example-usage.PNG
+235 silly gunzTarPerm extractEntry resources/images/prop-animation_speed-immediately.gif
+236 silly gunzTarPerm extractEntry resources/images/prop-animation_speed-noticeable.gif
+237 silly gunzTarPerm extractEntry resources/images/prop-animation_speed-slow.gif
+238 silly gunzTarPerm extractEntry angular.min.js
+239 silly gunzTarPerm modified mode [ 'angular.min.js', 420, 438 ]
+240 silly gunzTarPerm extractEntry resources/images/prop-color-default.PNG
+241 silly gunzTarPerm extractEntry resources/images/prop-color-middle.PNG
+242 silly gunzTarPerm extractEntry resources/images/prop-color-negative.PNG
+243 silly gunzTarPerm extractEntry index.js
+244 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+245 silly gunzTarPerm extractEntry LICENSE.md
+246 silly gunzTarPerm modified mode [ 'LICENSE.md', 420, 438 ]
+247 silly gunzTarPerm extractEntry resources/images/prop-color-positive.PNG
+248 silly gunzTarPerm extractEntry resources/images/prop-direction-ltr.PNG
+249 silly gunzTarPerm extractEntry angular-csp.css
+250 silly gunzTarPerm modified mode [ 'angular-csp.css', 420, 438 ]
+251 silly gunzTarPerm extractEntry angular.min.js.gzip
+252 silly gunzTarPerm modified mode [ 'angular.min.js.gzip', 420, 438 ]
+253 silly gunzTarPerm extractEntry angular.min.js.map
+254 silly gunzTarPerm modified mode [ 'angular.min.js.map', 420, 438 ]
+255 silly gunzTarPerm extractEntry resources/images/prop-direction-rtl.PNG
+256 silly gunzTarPerm extractEntry resources/images/prop-disabled-false.PNG
+257 silly gunzTarPerm extractEntry resources/images/prop-disabled-true.PNG
+258 silly gunzTarPerm extractEntry resources/images/prop-get_color-function.PNG
+259 silly gunzTarPerm extractEntry resources/images/prop-label-bottom.PNG
+260 silly gunzTarPerm extractEntry bower.json
+261 silly gunzTarPerm modified mode [ 'bower.json', 420, 438 ]
+262 silly gunzTarPerm extractEntry resources/images/prop-label-left.PNG
+263 silly gunzTarPerm extractEntry resources/images/prop-label-right.PNG
+264 silly gunzTarPerm extractEntry resources/images/prop-label-top.PNG
+265 silly gunzTarPerm extractEntry resources/images/prop-num_of_stars.PNG
+266 silly gunzTarPerm extractEntry resources/images/prop-show_half_stars-false.PNG
+267 silly gunzTarPerm extractEntry resources/images/prop-show_half_stars-true.PNG
+268 silly gunzTarPerm extractEntry resources/images/example-usage.gif
+269 silly gunzTarPerm extractEntry resources/images/prop-size-medium.PNG
+270 silly gunzTarPerm extractEntry resources/images/prop-size-small.PNG
+271 silly gunzTarPerm extractEntry resources/images/prop-spread-false.PNG
+272 silly gunzTarPerm extractEntry resources/images/prop-spread-true.PNG
+273 silly gunzTarPerm extractEntry resources/images/prop-text.PNG
+274 silly gunzTarPerm extractEntry resources/images/prop-value.PNG
+275 silly gunzTarPerm extractEntry resources/images/star-color-default.PNG
+276 silly gunzTarPerm extractEntry resources/images/star-color-middle.PNG
+277 silly gunzTarPerm extractEntry resources/images/star-color-negative.PNG
+278 silly gunzTarPerm extractEntry resources/images/star-color-positive.PNG
+279 verbose write writing to C:\Users\Rishab\node_modules\angular-star-rating\node_modules\angular\package.json
+280 silly gunzTarPerm extractEntry resources/images/star-empty.png
+281 silly gunzTarPerm extractEntry resources/images/star-fill-empty.png
+282 info preinstall angular@1.5.9
+283 verbose readDependencies loading dependencies from C:\Users\Rishab\node_modules\angular-star-rating\node_modules\angular\package.json
+284 silly gunzTarPerm extractEntry resources/images/star-fill-filled.PNG
+285 silly gunzTarPerm extractEntry resources/images/star-fill-half.PNG
+286 verbose readDependencies loading dependencies from C:\Users\Rishab\node_modules\angular-star-rating\node_modules\angular\package.json
+287 silly install resolved []
+288 verbose about to build C:\Users\Rishab\node_modules\angular-star-rating\node_modules\angular
+289 info build C:\Users\Rishab\node_modules\angular-star-rating\node_modules\angular
+290 silly gunzTarPerm extractEntry resources/images/star-filled.png
+291 silly gunzTarPerm extractEntry resources/images/star-icon-character.PNG
+292 info linkStuff angular@1.5.9
+293 silly linkStuff angular@1.5.9 has C:\Users\Rishab\node_modules\angular-star-rating\node_modules as its parent node_modules
+294 verbose linkBins angular@1.5.9
+295 verbose linkMans angular@1.5.9
+296 verbose rebuildBundles angular@1.5.9
+297 info install angular@1.5.9
+298 info postinstall angular@1.5.9
+299 silly gunzTarPerm extractEntry resources/images/star-icon-svg.PNG
+300 silly gunzTarPerm extractEntry resources/images/star-rating-options.PNG
+301 verbose unlock done using C:\Users\Rishab\AppData\Roaming\npm-cache\_locks\angular-10c7689ecd05c19b.lock for C:\Users\Rishab\node_modules\angular-star-rating\node_modules\angular
+302 silly gunzTarPerm extractEntry resources/images/star-size-larg.PNG
+303 silly gunzTarPerm extractEntry resources/images/star-size-medium.PNG
+304 silly gunzTarPerm extractEntry resources/images/star-size-small.PNG
+305 silly gunzTarPerm extractEntry src/assets/star-empty.svg
+306 silly gunzTarPerm extractEntry src/assets/star-filled.svg
+307 silly gunzTarPerm extractEntry src/assets/star-half.svg
+308 silly gunzTarPerm extractEntry src/assets/star-rating.icons.svg
+309 silly gunzTarPerm extractEntry src/sc5-styleguide/elements.sc5.scss
+310 silly gunzTarPerm extractEntry src/sc5-styleguide/modifiers.sc5.scss
+311 silly gunzTarPerm extractEntry src/sc5-styleguide/styleguide.scss
+312 silly gunzTarPerm extractEntry src/sc5-styleguide/styles.css
+313 silly gunzTarPerm extractEntry src/sc5-styleguide/themes.scss
+314 silly gunzTarPerm extractEntry src/scss/_elements.scss
+315 silly gunzTarPerm extractEntry src/scss/_modifiers.scss
+316 silly gunzTarPerm extractEntry src/scss/_themes.scss
+317 silly gunzTarPerm extractEntry src/scss/_variables.scss
+318 silly gunzTarPerm extractEntry src/scss/star-rating.scss
+319 verbose write writing to C:\Users\Rishab\node_modules\angular-star-rating\node_modules\css-star-rating\package.json
+320 info preinstall css-star-rating@1.0.6
+321 verbose readDependencies loading dependencies from C:\Users\Rishab\node_modules\angular-star-rating\node_modules\css-star-rating\package.json
+322 verbose readDependencies loading dependencies from C:\Users\Rishab\node_modules\angular-star-rating\node_modules\css-star-rating\package.json
+323 silly install resolved []
+324 verbose about to build C:\Users\Rishab\node_modules\angular-star-rating\node_modules\css-star-rating
+325 info build C:\Users\Rishab\node_modules\angular-star-rating\node_modules\css-star-rating
+326 info linkStuff css-star-rating@1.0.6
+327 silly linkStuff css-star-rating@1.0.6 has C:\Users\Rishab\node_modules\angular-star-rating\node_modules as its parent node_modules
+328 verbose linkBins css-star-rating@1.0.6
+329 verbose linkMans css-star-rating@1.0.6
+330 verbose rebuildBundles css-star-rating@1.0.6
+331 info install css-star-rating@1.0.6
+332 info postinstall css-star-rating@1.0.6
+333 verbose unlock done using C:\Users\Rishab\AppData\Roaming\npm-cache\_locks\css-star-rating-9924b5c29f5ad040.lock for C:\Users\Rishab\node_modules\angular-star-rating\node_modules\css-star-rating
+334 verbose about to build C:\Users\Rishab\node_modules\angular-star-rating
+335 info build C:\Users\Rishab\node_modules\angular-star-rating
+336 info linkStuff angular-star-rating@1.0.13
+337 silly linkStuff angular-star-rating@1.0.13 has C:\Users\Rishab\node_modules as its parent node_modules
+338 verbose linkBins angular-star-rating@1.0.13
+339 verbose linkMans angular-star-rating@1.0.13
+340 verbose rebuildBundles angular-star-rating@1.0.13
+341 verbose rebuildBundles [ 'angular', 'css-star-rating' ]
+342 info install angular-star-rating@1.0.13
+343 info postinstall angular-star-rating@1.0.13
+344 verbose unsafe-perm in lifecycle true
+345 info angular-star-rating@1.0.13 Failed to exec postinstall script
+346 verbose unlock done using C:\Users\Rishab\AppData\Roaming\npm-cache\_locks\angular-star-rating-280287372e1928a1.lock for C:\Users\Rishab\node_modules\angular-star-rating
+347 verbose stack Error: angular-star-rating@1.0.13 postinstall: `typings install`
+347 verbose stack Exit status 1
+347 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:217:16)
+347 verbose stack     at emitTwo (events.js:87:13)
+347 verbose stack     at EventEmitter.emit (events.js:172:7)
+347 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+347 verbose stack     at emitTwo (events.js:87:13)
+347 verbose stack     at ChildProcess.emit (events.js:172:7)
+347 verbose stack     at maybeClose (internal/child_process.js:827:16)
+347 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+348 verbose pkgid angular-star-rating@1.0.13
+349 verbose cwd C:\Users\Rishab\Desktop\Project_Web_dev_11_Dec
+350 error Windows_NT 6.1.7601
+351 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "angular-star-rating"
+352 error node v4.4.5
+353 error npm  v2.15.5
+354 error code ELIFECYCLE
+355 error angular-star-rating@1.0.13 postinstall: `typings install`
+355 error Exit status 1
+356 error Failed at the angular-star-rating@1.0.13 postinstall script 'typings install'.
+356 error This is most likely a problem with the angular-star-rating package,
+356 error not with npm itself.
+356 error Tell the author that this fails on your system:
+356 error     typings install
+356 error You can get information on how to open an issue for this project with:
+356 error     npm bugs angular-star-rating
+356 error Or if that isn't available, you can get their info via:
+356 error
+356 error     npm owner ls angular-star-rating
+356 error There is likely additional logging output above.
+357 verbose exit [ 1, true ]
+358 verbose unbuild node_modules\angular-star-rating
+359 info preuninstall angular-star-rating@1.0.13
+360 info uninstall angular-star-rating@1.0.13
+361 verbose unbuild rmStuff angular-star-rating@1.0.13 from C:\Users\Rishab\node_modules
+362 info postuninstall angular-star-rating@1.0.13
+363 silly gentlyRm C:\Users\Rishab\node_modules\angular-star-rating is being purged from base C:\Users\Rishab
+364 verbose gentlyRm don't care about contents; nuking C:\Users\Rishab\node_modules\angular-star-rating
+365 silly vacuum-fs purging C:\Users\Rishab\node_modules\angular-star-rating
+366 silly vacuum-fs quitting because other entries in C:\Users\Rishab\node_modules
